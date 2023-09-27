@@ -1,0 +1,49 @@
+/* Set a margin and padding to the body element to avoid elements
+   getting too close to the edge of the viewport */
+   body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style the navigation links */
+  nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Style the splash image */
+  #splash {
+    height: 500px;
+    background-image: url("images/splash.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+  }
+  
+  /* Style the information section */
+  #information {
+    height: 500px;
+    background-color: #f2f2f2;
+  }
+  
